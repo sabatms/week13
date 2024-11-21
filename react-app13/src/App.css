@@ -1,0 +1,42 @@
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+
+h1 {
+  text-align: left;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.Tabs {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Tabs button {
+  background-color: rgb(20, 94, 42);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.Tabs button.active {
+  font-weight: bold;
+}
+
+.content {
+  font-size: 20px;
+  color: rgb(209, 34, 3);
+  text-align: left;
+  padding: 15px;
+  font-family: fantasy;
+}
