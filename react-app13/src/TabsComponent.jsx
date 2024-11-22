@@ -19,8 +19,6 @@ const TabsComponent = () => {
             return "";
         }
     }
-
-
   return (
     <>
       <h1>Tabs Component Whit React : </h1>
